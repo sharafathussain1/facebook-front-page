@@ -1,0 +1,214 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+nav{
+    
+ position: fixed;
+    width: 100%;
+    height: 120px;
+    border: 1px solid black; 
+    border-bottom: 1px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;  
+     
+}
+#first{
+    background-color: rgb(155, 154, 154);
+    border-bottom: 7px solid rgb(87, 80, 80);
+}
+#second{
+    /* position: fixed; */
+    border-bottom: 7px solid rgb(87, 80, 80);
+    
+}
+h3{
+    /* border: 1px solid black; */
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: blue;
+    font-family: serif;
+    font-size: 45px;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+.img{
+     /* border: 1px solid black;  */
+    display: flex;
+    margin-left: 50%;
+  
+    
+   
+
+
+    
+}
+.img-first{
+    
+    width: 50px;
+    height: 45px;
+    /* right: 0px; */
+    padding: 0px 30px;
+    
+
+    
+}
+
+/* for messenger */
+.messenger{
+    position: relative;
+    width: 50px;
+    height: 45px;
+    right: 45px; 
+    padding: 0px 30px; 
+
+}
+.num{
+    position: absolute;
+    top: -0.5px;
+    right: 0;
+    font-size: 17px;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    background-color: red;
+    border: 2px solid white;
+     display: flex; 
+
+}
+
+.header{
+    display:flex;
+    padding-top: 130px;   
+}
+#profile{
+    border: 2px solid blue;
+    width: 118px;
+    height: 118px;
+    border-radius: 100px;
+    margin-left: 30px;
+    
+}
+.searchbox{
+    margin-left: 200px;
+    position: relative;
+    
+}
+#box{
+    border: 2px solid blue;
+    padding: 30px 250px;
+    border-radius: 40px;
+    text-align: center;
+    justify-content: center;
+    
+}
+#search-img{
+    
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    cursor: pointer;
+    
+}
+#picture{
+    width: 60px;
+    height:60px;
+    font-size: 60px;
+    color: green;
+    margin-left: 1150px;
+    margin-top: 40px;
+    text-align: center; 
+ position: fixed;    
+} 
+
+/* here all cards */
+.parent{
+    display: flex;
+    /* flex-wrap: wrap;  */
+    padding-left: 15px;
+    
+}
+.child-1{
+    border: 3parent-2px solid black;
+    border-radius: 10px ;
+    margin-top: 150px;
+    margin-left: 30px;
+    height:300px ;
+    position: relative;
+   
+}
+.child-1>img{
+    width: 300px;
+    height: 200px;
+
+}
+#plus{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    right: 124px;
+    top: 190px;
+    font-size: 50px;
+    color: blue;
+    
+}
+#story{
+    position: absolute;
+    right: 80px;
+    top: 230px;
+    font: bold;
+    font-size: 30px;
+}
+.child-2{
+    border: 3px solid black;
+    margin-top: 150px;
+    margin-left: 20px;
+    height:300px ;
+    position: relative;
+    border-radius: 10px; 
+}
+.child-3{
+    border: 3px solid black;
+    margin-top: 150px;
+    margin-left: 20px;
+    height:300px ;
+    position: relative; 
+    border-radius: 10px;
+}
+.child-4{
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 20px;
+    height:300px ;
+    position: relative; 
+}
+.id-profile{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.profile-logo{
+    border: 2px solid blue;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+
+}
+
+
+
